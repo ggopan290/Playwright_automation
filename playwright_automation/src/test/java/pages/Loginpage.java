@@ -5,6 +5,8 @@ import com.microsoft.playwright.Page;
 
 public class Loginpage {
 
+	
+
 	private Page page;
 
 	// Locators
@@ -38,4 +40,11 @@ public class Loginpage {
 		loginButton.click();
 
 	}
+
+	public String getLoginpageTitle() {
+		String title= page.title();
+		System.out.println("Page title:" +title);
+		return title;
+	}
+
 }

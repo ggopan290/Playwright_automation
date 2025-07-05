@@ -1,26 +1,25 @@
 package tests;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import com.microsoft.playwright.Locator;
 
-import Base.Base_class;
+import Constants.AppConstants;
+import baseTest.BaseTestclass;
 import pages.Loginpage;
 
-public class Logintest extends Base_class {
+public class LoginTest extends BaseTestclass {
 
 	@Test
 	public void testLoginPageTitle() {
-		page.navigate("https://automationteststore.com/");
-		System.out.println("Page Title: " + page.title());
-		Assertions.assertEquals("A place to practice your automation skills!", page.title());
+		String actualTitle = loginPage.getLoginpageTitle();
+		Assert.assertEquals(AppConstants.TITLE, actualTitle);
 	}
 
 	@Test
 	public void testLoginfunctionality() {
-		page.navigate("https://automationteststore.com/");
-		// Create the LoginPage object
+
 		Loginpage loginPage = new Loginpage(page);
 
 		// Actions

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-05T07:06:00Z" name="Automation Test Labs PW Suite" finished-at="2025-07-05T07:06:18Z" duration-ms="18109">
+    <groups>
+    </groups>
+    <test started-at="2025-07-05T07:06:00Z" name="Automation Test Labs Login Page Test" finished-at="2025-07-05T07:06:18Z" duration-ms="18109">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@338c99c8]" started-at="2025-07-05T07:06:00Z" name="setup" finished-at="2025-07-05T07:06:17Z" duration-ms="16708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginPageTitle()[pri:0, instance:tests.LoginTest@338c99c8]" started-at="2025-07-05T07:06:17Z" name="testLoginPageTitle" finished-at="2025-07-05T07:06:17Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageTitle -->
+        <test-method signature="testLoginfunctionality()[pri:0, instance:tests.LoginTest@338c99c8]" started-at="2025-07-05T07:06:17Z" name="testLoginfunctionality" finished-at="2025-07-05T07:06:18Z" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginfunctionality -->
+        <test-method is-config="true" signature="tearDownAll()[pri:0, instance:tests.LoginTest@338c99c8]" started-at="2025-07-05T07:06:18Z" name="tearDownAll" finished-at="2025-07-05T07:06:18Z" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAll -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Automation Test Labs Login Page Test -->
+  </suite> <!-- Automation Test Labs PW Suite -->
+</testng-results>
